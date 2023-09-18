@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { Subject } from 'rxjs';
 
 import { Post } from '../posts/post.model';
@@ -8,14 +9,20 @@ import { Post } from '../posts/post.model';
 })
 export class PostsService {
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   private posts: Post[] = [];
   private postsUpdated = new Subject<Post[]>();
 
   getPosts() {
     // return this.posts; - to avoid reference of the values
-    return [...this.posts]; // spread operator will create copy of array posts
+    // return [...this.posts]; // spread operator will create copy of array posts
+    //using http client:
+    this.http.get<{message: string, posts: Post[]}>('http://localhost:3000/api/posts')
+    .subscribe((postData) => {
+      this.posts = postData.posts;
+      this.postsUpdated.next([...this.posts]);
+    }); //subscribe as we are using observables
   }
 
 
@@ -25,9 +32,13 @@ export class PostsService {
 
 
   addPost(title: string, content: string){
-    const post: Post = {title: title, content: content};
-    this.posts.push(post);
-    this.postsUpdated.next([...this.posts]);
+    const post: Post = {id: null, title: title, content: content};
+    this.http.post<{ message: string }>('http://localhost:3000/api/posts', post)
+        .subscribe(responseData => {
+          console.log(responseData.message);
+          this.posts.push(post);
+          this.postsUpdated.next([...this.posts]);
+        });
   }
 }
 

@@ -1,0 +1,31 @@
+#Section 2: The Angular Frontend - Understanding the Basics:-
+``````````````````````````````````````````````````````````````
+
+01. Learn everything about Angular: 
+https://academind.com/learn/angular
+
+02. Angular Material Tutorial: 
+https://academind.com/learn/angular/angular-material-a-thorough-guide/
+
+03. Angular Material Docs: 
+https://material.angular.io/
+
+04. Reference vs Primitive Types in JS: 
+https://academind.com/learn/javascript/reference-vs-primitive-values/
+
+05. RxJS Tutorial: 
+https://academind.com/learn/javascript/understanding-rxjs/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Section 3: Adding NodeJS to our Project:-
+```````````````````````````````````````````
+
+01. Learn Node + Express from Scratch (for free!): 
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
+
+02. Creating a REST API with Node + Express (+ MongoDB): 
+https://academind.com/learn/node-js/building-a-restful-api-with/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
