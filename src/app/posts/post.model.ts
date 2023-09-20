@@ -1,5 +1,5 @@
 export interface Post {
-    id: BigInteger,
+    id: string,
     title: string;
     content: string;
 }
