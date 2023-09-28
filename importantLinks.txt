@@ -41,3 +41,11 @@ https://www.mongodb.com/
 https://www.mongodb.com/cloud/atlas
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Section 5: Enhancing the App:-
+```````````````````````````````````
+01. Angular Material Docs: 
+https://material.angular.io/components/categories
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

@@ -1,55 +1,41 @@
-// import { Component, Input, OnInit } from '@angular/core';
-import { Component, OnDestroy, OnInit } from '@angular/core';
-//OnInit is lifecycle hook
-
+import { Component, OnInit, OnDestroy } from "@angular/core";
 import { Subscription } from 'rxjs';
 
-import { Post } from '../post.model';
-import { PostsService } from '../posts.service';
+import { Post } from "../post.model";
+import { PostsService } from "../posts.service";
 
 @Component({
-  selector: 'app-post-list',
-  templateUrl: './post-list.component.html',
-  styleUrls: ['./post-list.component.css']
+  selector: "app-post-list",
+  templateUrl: "./post-list.component.html",
+  styleUrls: ["./post-list.component.css"]
 })
 export class PostListComponent implements OnInit, OnDestroy {
-
   // posts = [
-  //   {title: 'first', content: 'first post'},
-  //   {title: 'second', content: 'second post'},
-  //   {title: 'third', content: 'third post'}
+  //   { title: "First Post", content: "This is the first post's content" },
+  //   { title: "Second Post", content: "This is the second post's content" },
+  //   { title: "Third Post", content: "This is the third post's content" }
   // ];
-
-  // @Input() posts: Post [] = [];
-  posts: Post [] = [];
+  posts: Post[] = [];
+  isLoading = false;
   private postsSub: Subscription;
-
-  //------------------------- START ----------------
-  // postsService: PostsService
-
-  // constructor(postsService: PostsService) {
-  //   this.postsService = postsService;
-  // }
-  //------------------------- END --------------------
-  // to avoid cumbersome for above lines START to END, we use following syntax:
 
   constructor(public postsService: PostsService) {}
 
-  ngOnInit(): void {
-    // this.posts = this.postsService.getPosts();
+  ngOnInit() {
+    this.isLoading = true;
     this.postsService.getPosts();
     this.postsSub = this.postsService.getPostUpdateListener()
       .subscribe((posts: Post[]) => {
+        this.isLoading = false;
         this.posts = posts;
       });
   }
 
-  onDelete(postId: string){
+  onDelete(postId: string) {
     this.postsService.deletePost(postId);
   }
 
-  ngOnDestroy(): void {
-    this.postsSub.unsubscribe(); // unsubscribe the subscription & prevents memory leaks
+  ngOnDestroy() {
+    this.postsSub.unsubscribe();
   }
-
 }

@@ -1,21 +1,21 @@
 // const http = require("http"); //import
 
-// //import express and have to use app as listener for incoming request
+//!import express and have to use app as listener for incoming request
 // const app = require('./backend/app'); 
 
-// //tell express on which port we are working
+//! tell express on which port we are working
 // const port = process.env.PORT || 3000;
 // app.set('port', port);
 
-// //create server with express:
+//! create server with express:
 // const server = http.createServer(app);
 
-// //!create server without express:
-// // const server = http.createServer((req, res) => {
-// //     res.end('This is my first node response!');
-// // });
+//! create server without express:
+// const server = http.createServer((req, res) => {
+//     res.end('This is my first node response!');
+// });
 
-// //listen to the server:
+//listen to the server:
 // server.listen(process.env.PORT || 3000);
 
 //-------------------------- server.js ----------------------------

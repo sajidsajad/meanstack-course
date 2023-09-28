@@ -1,12 +1,12 @@
-<!-- create header component -->
-<app-header></app-header> 
+<app-header></app-header>
 <main>
-    <!-- create post create component -->
+  <router-outlet></router-outlet>
+  <!-- create post create component -->
     <!-- <app-post-create (postCreated)="onPostAdded($event)"></app-post-create>  
     after using service: no bindings or event emitter needed  -->
-    <app-post-create></app-post-create> 
+    <!-- <app-post-create></app-post-create>  -->
     <!-- create post list component -->
     <!-- <app-post-list [posts]="storedPosts"></app-post-list>  
     after using service: no bindings or event emitter needed    -->
-    <app-post-list></app-post-list> 
+    <!-- <app-post-list></app-post-list>  -->
 </main>
