@@ -1,10 +1,9 @@
-const mongoose = require('mongoose'); //import
+const mongoose = require("mongoose");
 
-//Schema blueprint
 const postSchema = mongoose.Schema({
-    title: { type: String, required: true },
-    content: { type: String, required: true }
+  title: { type: String, required: true },
+  content: { type: String, required: true },
+  imagePath: { type: String, required: true }
 });
 
-//to use this model outside of this file:
-module.exports = mongoose.model('Post', postSchema); // model method gives us a constructor function that allows us to construct a JS object.
+module.exports = mongoose.model("Post", postSchema);
