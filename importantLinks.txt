@@ -51,9 +51,22 @@ https://material.angular.io/components/categories
 
 #Section 6: Adding Image Uploads to our App:-
 ``````````````````````````````````````````````
-
 01. Multer Docs: 
 https://github.com/expressjs/multer
 
 02. Tutorial on Angular Image Upload: 
 https://academind.com/learn/angular/snippets/angular-image-upload-made-easy
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Section 7: Adding Pagination:-
+````````````````````````````````
+01. Angular Material Paginator Docs: 
+https://material.angular.io/components/paginator/overview
+
+02. Discussion on Pagination & Mongoose: 
+https://stackoverflow.com/questions/5539955/how-to-paginate-with-mongoose-in-node-js
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
