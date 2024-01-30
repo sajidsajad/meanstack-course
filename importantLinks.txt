@@ -1,4 +1,4 @@
-#Section 2: The Angular Frontend - Understanding the Basics:-
+#Section 02: The Angular Frontend - Understanding the Basics:-
 ``````````````````````````````````````````````````````````````
 
 01. Learn everything about Angular: 
@@ -18,7 +18,7 @@ https://academind.com/learn/javascript/understanding-rxjs/
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#Section 3: Adding NodeJS to our Project:-
+#Section 03: Adding NodeJS to our Project:-
 ```````````````````````````````````````````
 
 01. Learn Node + Express from Scratch (for free!): 
@@ -29,8 +29,9 @@ https://academind.com/learn/node-js/building-a-restful-api-with/
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#Section 4: Working with MongoDB:-
-```````````````````````````````````
+#Section 04: Working with MongoDB:-
+````````````````````````````````````
+
 01. Mongoose Docs: 
 http://mongoosejs.com/docs/guide.html
 
@@ -42,15 +43,17 @@ https://www.mongodb.com/cloud/atlas
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#Section 5: Enhancing the App:-
+#Section 05: Enhancing the App:-
 ````````````````````````````````
+
 01. Angular Material Docs: 
 https://material.angular.io/components/categories
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#Section 6: Adding Image Uploads to our App:-
-``````````````````````````````````````````````
+#Section 06: Adding Image Uploads to our App:-
+```````````````````````````````````````````````
+
 01. Multer Docs: 
 https://github.com/expressjs/multer
 
@@ -59,8 +62,9 @@ https://academind.com/learn/angular/snippets/angular-image-upload-made-easy
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#Section 7: Adding Pagination:-
-````````````````````````````````
+#Section 07: Adding Pagination:-
+`````````````````````````````````
+
 01. Angular Material Paginator Docs: 
 https://material.angular.io/components/paginator/overview
 
@@ -69,8 +73,9 @@ https://stackoverflow.com/questions/5539955/how-to-paginate-with-mongoose-in-nod
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#Section 8: Adding User Authentication:-
-`````````````````````````````````````````
+#Section 08: Adding User Authentication:-
+``````````````````````````````````````````
+
 01. More on JWT: 
 https://jwt.io/introduction/
 
@@ -82,12 +87,21 @@ https://angular.io/guide/http#intercepting-requests-and-responses
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#Section 9: Authorization:-
-````````````````````````````
+#Section 09: Authorization:-
+`````````````````````````````
+
 01. Mongoose Relations (and how you could combine them when fetching data): 
 http://mongoosejs.com/docs/populate.html 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Section 10: Handling Errors:-
+```````````````````````````````
+01. Angular Material Dialog Docs: 
+https://material.angular.io/components/dialog/overview
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 
