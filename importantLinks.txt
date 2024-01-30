@@ -102,6 +102,12 @@ https://material.angular.io/components/dialog/overview
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+#Section 11: Optimizations:-
+`````````````````````````````
+01. More on Angular Modules: 
+https://angular.io/guide/ngmodules
 
+02. Understanding Environment Variables: 
+https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
 
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
