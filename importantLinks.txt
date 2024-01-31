@@ -124,3 +124,27 @@ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
 db instance for production env.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Section 13: Course Roundup:-
+``````````````````````````````
+#Possible Addition: Add Web Sockets for Realtime Refresh:
+
+As a next step after completing this course, you might also be interested in enhancing the app even more by adding websockets for real-time refresh.
+
+This means that your app could update (in the browser) without a new request being sent by the client to the server.
+
+A fellow student of yours created a variation of this app with websockets being used and shared his approach. This might be interesting for you, too: 
+https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide/learn/lecture/10523172#questions/11161631/
+
+#Bonus: More Content!
+I got a lot of other high-quality & bestselling courses you might be interested in: https://academind.com/learn/our-courses/
+
+I'd love to welcome you on board of any of these courses! 
+
+Also don't forget to subscribe to my newsletter on https://academind.com/ to receive the latest updates and exclusive offers!
+
+And in case you didn't know: On the same page as well as on my YouTube channel I got loads of additional tutorials.
+
+Last but not least - I tweet on @maxedapps and on @academind_real, would love to see you there!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
