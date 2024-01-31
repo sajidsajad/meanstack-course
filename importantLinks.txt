@@ -111,3 +111,16 @@ https://angular.io/guide/ngmodules
 https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#Section 12: Deploying our App:-
+`````````````````````````````````
+01. AWS Elastic Beanstalk Documentation: 
+https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html
+
+#For Two Apps: EC2 and S3 (check source code and notes)
+#For One App: only EC2 (check source code and notes)
+
+#For db: use the aws environment IP in the cluster but it is a good practice to create a fresh
+db instance for production env.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

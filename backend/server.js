@@ -20,7 +20,7 @@
 
 //-------------------------- server.js ----------------------------
 
-const app = require("./backend/app");
+const app = require("./app");
 const debug = require("debug")("node-angular"); // package following by identifier
 const http = require("http");
 
